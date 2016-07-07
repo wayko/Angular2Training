@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS Toggle Switch</title>
+<script src="node_modules/core-js/client/shim.min.js"></script>
+<script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+	    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('app').catch(function(err){ console.error(err); });
+    </script>
+	<link rel="stylesheet"  type="text/css" href="style/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+<div class="wrapper">
+<section class="togglecss">
+<app-nav></app-nav>
+</section>
+<section class="togglecss">
+<my-app>Loading.....</my-app>
+</section>
+<footer>
+</footer>
+</div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type ="test/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"> </script>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.9.2/jquery-ui.min.js"></script>
+</body>
+</html>
