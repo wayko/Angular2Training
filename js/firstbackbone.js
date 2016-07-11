@@ -36,7 +36,7 @@ var link1 = new Navigation({links: '#', classes: 'services', name: 'Services' })
 var link2 = new Navigation({links: '#', classes: 'contact', name: 'Contact Us' });
 var link3 = new Navigation({links: '/wordpress', classes: 'programming', name: 'Blog', });
 var link4 = new Navigation({links: '#', classes: 'rssfeeds', name: 'RSS Feeds'});
-var linkCollection = new NavCollect([link0,link1,link2,link3,link4]);
+var linkCollection = new NavCollect([link1,link2,link3,link4]);
 
 var NavView = Backbone.View.extend({
 	navEl: $(".navigation"),
